@@ -5,7 +5,7 @@ Home: https://CRAN.R-project.org/package=grobblR
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: A tool which allows users the ability to intuitively create flexible, reproducible portable document format reports comprised of aesthetically pleasing tables, images, plots and/or text.
 
