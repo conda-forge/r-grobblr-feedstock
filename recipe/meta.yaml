@@ -1,4 +1,4 @@
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/grobblR_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/grobblR/grobblR_{{ version }}.tar.gz
-  sha256: 52c7e39f49686216231e46c10ff8fc10b7acf7c04194bd272d7b1c548fa4a27f
+  sha256: 013cb19f887bbe9b6e8bee0dbd2940c128d263733bb960bf5eab4e0012d435d0
 
 build:
   merge_build_host: true  # [win]
